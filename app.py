@@ -116,4 +116,4 @@ with gr.Blocks(title="Sequential Circuit Design Automation System") as demo:
 
     generate_btn.click(fn=generate_system, inputs=[model_type, ff_type, state_table], outputs=[equations_output, kmap_output, circuit_output])
 
-demo.launch(share=True)
+demo.launch()
